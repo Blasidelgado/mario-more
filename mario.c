@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    // Ask user to input piramid's height
+    // Ask user to input pyramid's height
     int height;
     do
     {
-        height = get_int("Enter piramid's height: ");
+        height = get_int("Enter pyramid's height: ");
     }
     while (height < 1 || height > 8);
 
